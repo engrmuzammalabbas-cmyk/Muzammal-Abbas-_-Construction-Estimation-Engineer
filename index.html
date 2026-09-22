@@ -128,6 +128,16 @@ footer{padding:0 0 40px;color:var(--ink-soft);font-size:15px}
   .grid3,.steps{grid-template-columns:1fr}
   .sheet td,.sheet th{padding-left:14px;padding-right:14px}
 }
+
+.experience-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:36px}
+.exp-card{background:var(--sheet);border:1px solid var(--line);border-left:4px solid var(--amber);padding:24px 24px 20px;border-radius:3px}
+.exp-card h3{margin-bottom:5px}
+.exp-card .exp-role{font-weight:600;color:var(--steel);font-size:16px}
+.exp-card .exp-meta{color:var(--ink-soft);font-size:15px;margin-top:3px}
+.exp-card p{color:var(--ink-soft);font-size:16px;margin:12px 0 0}
+.profile-note{margin-top:18px;color:var(--ink-soft);font-size:15px}
+@media (max-width:880px){.experience-grid{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
@@ -136,6 +146,7 @@ footer{padding:0 0 40px;color:var(--ink-soft);font-size:15px}
     <a class="brand" href="#top">Muzammal Abbas</a>
     <div class="navlinks">
       <a href="#services">Services</a>
+      <a href="#experience">Experience</a>
       <a href="#trades">Trades</a>
       <a href="#process">Process</a>
       <a href="#contact">Contact</a>
@@ -144,7 +155,7 @@ footer{padding:0 0 40px;color:var(--ink-soft);font-size:15px}
 
   <header class="hero" id="top">
     <div>
-      <div class="role">Construction Estimation Engineer</div>
+      <div class="role">Construction Estimation Engineer · GC Team Lead</div>
       <h1>Know what the job costs before you bid it.</h1>
       <p class="lede">I prepare quantity takeoffs, cost estimates and BOQs from your drawings, so contractors, builders and developers can price work with confidence and win bids at the right margin.</p>
       <div class="ctas">
@@ -184,6 +195,30 @@ footer{padding:0 0 40px;color:var(--ink-soft);font-size:15px}
       <div class="svc"><h3>Change order pricing</h3><p>Fast, documented pricing for revisions and variations during construction.</p></div>
       <div class="svc"><h3>Budget and feasibility</h3><p>Early cost estimates from concept drawings to test whether a project stacks up.</p></div>
     </div>
+  </div>
+</section>
+
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Professional experience</h2>
+    <p class="lede">Construction estimating, project management and GC leadership experience across estimating and technology organizations.</p>
+    <div class="experience-grid">
+      <div class="exp-card">
+        <h3>BND Construction</h3>
+        <div class="exp-role">Construction Estimating Department</div>
+        <div class="exp-meta">Current</div>
+        <p>Managing construction estimating workflows, takeoffs, pricing, quotation review, QA and bid support for U.S. contractors.</p>
+      </div>
+
+      <div class="exp-card">
+        <h3>Klix / Bidwell Estimates LLC</h3>
+        <div class="exp-role">GC Team Lead · GC Estimating</div>
+        <div class="exp-meta">Aug 2023 – Jun 2025</div>
+        <p>Led GC takeoff estimators and cost-estimating workflows, supported client meetings, KPI/MPR reporting, QA and estimator training.</p>
+      </div>
+    </div>
+    <p class="profile-note">Company names and career details are presented for portfolio context. See the LinkedIn profile for the latest public career information.</p>
   </div>
 </section>
 
